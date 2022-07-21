@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.block{
+    margin-top: 20px;
+    
+    width: 20%;
+}
+.rightDiv{
+    
+    
+    width: 100%;
+    
+}
+.brandPhoto img{
+    width: 50px;
+  
+}
+.recordBrandFollow{
+    display: flex;
+    align-items: center;
+    width: 80%;
+
+}

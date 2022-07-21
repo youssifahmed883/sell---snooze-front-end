@@ -1,0 +1,126 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.verticalDiv{
+    height: 80px;
+}
+
+.addLight{
+    width: 60%;
+    background-color: #FFF;
+    margin: 20px 0;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.addDark{
+    width: 60%;
+    background-color: #181A1B;
+    margin: 20px 0;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.avatardiscription{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+.avatarInfo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.avatarDisc{
+    display: flex;
+    align-items: center;
+}
+
+.avatardiscription .avatarInfo .avatarPhoto img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px 0 ;
+    margin-right: 10px;
+}
+.categoryName{
+    display: flex;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    padding: 5px 5px;
+    font-weight: 100;
+}
+.contactUsIcon{
+    color: white;
+    font-size: 2em;
+    
+}
+.addPhotos {
+    width: 100%;
+    display: flex;
+}
+.addPhotos img{
+    width: 98%;
+    margin: auto;
+}
+.addDiscrition{
+    
+    max-height: 80px;
+    /* width: 98%; */
+    /* border:1px solid gray; */
+    padding: 0px 5px 5px 5px;
+    overflow: auto;
+    margin: 10px auto;
+}
+
+.addReact{
+    display: flex;
+    justify-content: space-around;
+
+}
+.addReact button{
+    /* padding: 0px 0; */
+    width: 80px;
+    height: 50px;
+    margin-bottom: 10px;
+   
+    
+    cursor: pointer;
+    
+    font-size: 17px;
+    border-radius: 5%;
+}
+
+.reactIconslike {
+    color: rgb(241, 45, 88);
+    border: 1px solid rgb(241, 45, 88);
+}
+
+.reactIconsDislike {
+    color: lightblue;
+    border: 1px solid lightblue;
+}
+
+.reactIconsDislike:hover{
+    color: white;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+}
+.addReact .reactIconslike:hover{
+    color: white;
+    border: 1px solid rgb(241, 45, 88);
+    background-color: rgb(241, 45, 88);
+}
+@media (max-width : 1000px){
+    .add{
+    width: 90%;}
+}
+
+

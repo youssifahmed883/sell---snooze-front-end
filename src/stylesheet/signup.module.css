@@ -1,0 +1,132 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.layout{
+    height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    overflow: auto;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+}
+.form h1 {
+    text-align: center;
+    color: #2196F3;
+    padding: 20px;
+}
+.row {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom:20px;
+    justify-content: space-around;
+}
+.col1, .col2 {
+    width: 45%;
+}
+.input {
+    width: 100%;
+    padding: 5px 10px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top:0px;
+    border-bottom:1px solid gray;
+    margin-bottom: 10px;
+    color: darkblue;
+}
+.col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.eye{
+    position: absolute;
+    right: 5%;
+    margin-top: -8%;
+}
+.col .input {
+    margin-top: 10px;
+}
+.input:focus {
+    outline: 0px;
+    border-bottom: 1px solid #2196F3;
+    color: black;
+    transition-duration: 0.25s;
+    transition: 0.3s;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:focus::-webkit-input-placeholder {
+    color:transparent;
+}
+
+.btn{
+    width: 50%;
+   margin: auto;
+    background-color: white;
+    padding: 10px 0px;
+    color: #2196F3;
+    border: 1px solid #2196F3;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+
+    
+}
+.btn:hover{
+    background-color: #2196F3;
+    color: white;
+    transition: 0.2s;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+       width: 90%;
+       height: auto;
+    }
+    .form {
+        width: 95%;
+        padding: 10px;
+    }
+    .form h1 {
+        padding: 10px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 10px auto;
+       
+    }
+    .col1 , .col2 {
+        width: 100%;
+    }
+    .col {
+        width: 100%;
+    }
+    .btn {
+        margin:5px 0 ;
+    }
+}

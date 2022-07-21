@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    width: 45%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+  
+}
+.firstDiv{
+    text-align: center;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.oneinput{
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+    justify-content: center;
+    margin: 4% 0;
+
+}
+.twoInputs{
+    display: flex;
+    
+   
+    width: 100%;
+    justify-content: center;
+    margin: 20% 0;
+    justify-content: flex-end;
+
+}
+
+.inputField{
+    outline: none;
+    padding: 5px 0 5px 5px ;
+    border: 0px ;
+    border-bottom: 1px solid gray;
+    color: #4867AA;
+    font-size: large;
+
+}
+.twoInputField{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.twoInputField .inputField{
+    width: 45%;
+}
+input::-webkit-input-placeholder {
+    color: #999;
+}
+input:focus::-webkit-input-placeholder {
+    color: #4867AA;
+}
+.inputField:focus{
+    border-bottom: 1px solid #4867AA;
+}
+.inputs{
+    width: 100%;
+    height: 90%;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.herobtn{
+    width: 25%;
+    padding: 10px 5px;
+    background-color: white;
+    border: 2px solid #4867AA;
+    border-radius: 7px;
+    color: #4867AA;
+    font-size: 1em;
+    cursor: pointer ;
+}
+.herobtn:hover{
+    color: white;
+    background-color:#4867AA ;
+    transition: 0.3s;
+}
+.togleShowpassword{
+    border: 0px;
+    background-color: white;
+    position: absolute;
+     right: 11%;
+    height: 10px;
+    width: 20px;
+    color: #4867AA;
+
+}
+.secondDiv{
+    text-align: center;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+::-webkit-file-upload-button {
+    width: 100px;
+   margin: auto;
+   margin-right: 10px;
+    background-color: white;
+    padding: 10px 0px;
+    color: #4867AA;
+    border: 1px solid #4867AA;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+}
+::-webkit-file-upload-button:hover{
+    background-color: #465BA9;
+    color: white;
+    transition: .2s;
+}
+.selectImgeLabel{
+    margin: 0%;
+}
+.secondDiv .twoInputs{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top: 10%;
+}
+.herobtn{
+    margin-bottom: 10px;
+}
+
+.thirdDiv{
+    text-align: center;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.thirdDiv .twoInputs{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width : 1000px){
+    .container{
+        width: 95%;
+    }
+    .twoInputField{
+        flex-direction: column;
+    }
+    .inputField{
+        margin: 10px 0;
+    }
+    .twoInputField .inputField{
+        width: 100%;
+    }
+    .herobtn{
+        width: 35%;
+    }
+}

@@ -1,0 +1,366 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.TopLayout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inputSearch{
+    width: 20%;
+    padding: 5px;
+    height: 10%;
+    background-color: transparent;
+    color: #4867AA;
+    border : 1px solid #4867AA;
+    border-radius: 7px;
+    outline: 0px;
+}
+
+.inputSearch:focus{
+    box-shadow: 0px 0px 20px #4867AA; 
+    transition: 0.3s; 
+}
+
+.tableColomn{
+    min-width: 100%;
+    max-width: 100%;
+    background: transparent;
+   
+   }
+   .tableRow{
+       height: 400px;
+       display: flex;
+       flex-direction: row;
+       min-width: 20%;
+       
+       flex-wrap: wrap;
+       
+       
+   }
+   .hideTableRow{
+       display: none;
+   }
+   .tableHead{
+       height: 0px;
+       display: none;
+   }
+   .tableLayout{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+     
+       height: 80%;
+       width: 100%;
+   }
+   .tableBody{
+       width: 100%;
+   }
+   .ordersTable{
+       width: 100%;
+       height: 92%;
+   }
+   
+
+
+   .styleLink{
+    text-decoration: none;
+    color: #2196F3;
+
+   }
+ .styleLink2{
+    border: 0px;
+    background-color: transparent;
+    color: red;
+    size: 12px;
+    font-size: large;
+ }
+
+
+.cardTheme{
+    background-color: #282B2D;
+    max-width: 345px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.AddHeader{
+    background-color: transparent;
+    color: #2196F3;
+}
+.div2{
+padding: 2%;
+width: 100%;
+text-align: center;
+min-height: 100vh;
+border-radius: 7px;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+background-color: white;
+overflow: auto; 
+}
+.div2Dark{
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+    min-height: 100vh;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+  
+    overflow: auto; 
+background-color: #181A1B;
+}
+.div2 h2{
+    padding-bottom: 2%;
+}
+.productList{
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.addLight{
+    width: 95%;
+    background-color: white;
+    margin: 20px 1%;
+    max-height: 400px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+.addDark{
+    width: 95%;
+    background-color: #222527;
+    margin: 20px 1%;
+    max-height: 400px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+.avatardiscription{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+.avatarInfo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.avatarUsername{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.avatarDisc{
+    display: flex;
+    align-items: center;
+}
+
+.avatardiscription .avatarInfo .avatarPhoto img{
+    width: 50px;
+    margin: 10px 0 ;
+    margin-right: 10px;
+}
+.categoryName{
+    display: flex;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    padding: 5px 5px;
+    font-weight: 100;
+}
+.contactUsIcon{
+    color: white;
+    font-size: 2em;
+    
+}
+.addPhotos {
+    width: 100%;
+    display: flex;
+   
+}
+.addPhotos img{
+    width: 98%;
+    max-height: 100px;
+    margin: auto;
+    min-height: 100px;
+   
+  
+}
+.addDiscrition{
+    
+    max-height: 30px;
+    /* width: 98%; */
+    /* border:1px solid gray; */
+    padding: 0px 5px 5px 5px;
+    overflow: auto;
+    margin: 10px auto;
+}
+
+.addReact{
+    display: flex;
+    justify-content: space-around;
+
+}
+.addReact button{
+    /* padding: 0px 0; */
+    width: 80px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    
+    cursor: pointer;
+    
+    font-size: 17px;
+    border-radius: 5%;
+}
+
+.reactIconslike {
+    color: rgb(241, 45, 88);
+    border: 1px solid rgb(241, 45, 88);
+}
+
+.reactIconsDislike {
+    color: lightblue;
+    border: 1px solid lightblue;
+}
+
+.reactIconsDislike:hover{
+    color: white;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+}
+.addReact .reactIconslike:hover{
+    color: white;
+    border: 1px solid rgb(241, 45, 88);
+    background-color: rgb(241, 45, 88);
+}
+
+.LargeDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.cardslayout{
+    display: flex;
+    flex-direction: row;
+
+ 
+
+}
+.NumOfOrders{
+    background-color: #F7B641;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 20%;
+    height: 90%;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%;
+    padding: 2%;
+    margin-left: 5%;
+
+
+
+}
+.theNumOfOrders{
+color: white;
+font-size: 5rem;
+}
+
+.NumOfOrders2{
+    background-color: #2196F3;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 20%;
+    height: 90%;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%;
+ 
+    padding: 2%;
+    margin-left: 5%;
+
+
+}
+.theNumOfOrders2{
+color: white;
+font-size: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 1000px){
+    .theNumOfOrders{
+        font-size: 1em;
+    }
+    .NumOfOrders{
+        font-size: 1em;
+    }
+    .theNumOfOrders2{
+        font-size: 1em;
+    }
+    .NumOfOrders2{
+        font-size: 1em;
+    }
+    .productList{
+        display: flex;
+        flex-direction: column;
+     
+    }
+    .add{
+        width: 90%;
+
+    margin: 2% auto;}
+
+    .tableColomn{
+        min-width: 95%;
+         
+        }
+
+    .tableRow{
+           
+         min-width: 100%;
+         left: 2%;
+         position: relative;
+           
+            
+            
+    }
+}

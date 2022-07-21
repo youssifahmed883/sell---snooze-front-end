@@ -1,0 +1,701 @@
+body{
+    background-color: #F4F6F9;
+}
+.coverSection{
+    width: 100%;
+    height: 60vh;
+   
+
+}
+.coverImage{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.liniarDiv{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: calc(60vh - 60px ) ;
+    top: 60px;
+    background: rgba(46, 75, 206, 0.699);
+background: linear-gradient(90deg, rgba(19, 89, 239, 0.644) 100%, rgba(0, 68, 255, 0.61) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+
+}
+.UserNameHeader{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.tableColomn{
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+   
+   }
+.tableColomnDark{
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+   background-color: #282B2D;
+   }
+   .tableRow{
+       height: 350px;
+       display: flex;
+       flex-direction: row;
+      
+       max-width: 20%;
+       flex-wrap: wrap;
+       margin: 0 20px;
+       
+       
+   }
+   .hideTableRow{
+       display: none;
+   }
+   .tableHead{
+       height: 0px;
+       display: none;
+   }
+   .tableLayout{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+     
+       height: 80%;
+       width: 100%;
+   }
+   .tableBody{
+       width: 100%;
+   }
+   .ordersTable{
+       width: 100%;
+       height: 100%;
+   }
+   
+
+.themeDivDark{
+    width: 100%;
+    height: auto;
+    background-color: #282B2D;
+}
+.contactResponsive{
+    display: none;
+}
+p{
+    font-size: 18px;
+    color: gray;
+}
+.company{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBarLight{
+
+}
+.ProfilePhoto{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: calc(50% - 100px);
+    top : -130px;
+    z-index: 3;
+}
+.companyImg{
+    height: 100%;
+    width: 100%;
+    
+    
+    border-radius: 50%;
+
+}
+.NumOfOrders1{
+    background-color: #2196F3;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 20%;
+
+    border-radius: 7px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%;
+ 
+    padding: 2%;
+   
+
+
+}
+.theNumOfOrders1{
+color: white;
+font-size: 1.5em;
+}
+.NumOfOrders2{
+    background-color: #465BA9;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 20%;
+   
+    border-radius: 7px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%;
+ 
+    padding: 2%;
+ 
+
+
+}
+.theNumOfOrders2{
+color: white;
+font-size: 1.5em;
+}
+
+
+.NumOfOrders4{
+    background-color:  darkred;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 20%;
+  
+    border-radius: 7px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%;
+ 
+    padding: 2%;
+ 
+
+
+}
+.theNumOfOrders4{
+color: white;
+font-size: 1.5em;
+}
+
+.NumOfOrders3{
+    background-color: darkmagenta;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 20%;
+ 
+    border-radius: 7px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%;
+ 
+    padding: 2%;
+ 
+
+
+}
+.theNumOfOrders3{
+color: white;
+font-size: 1.5em;
+}
+
+.cardsInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+.companyName{
+    background-color: transparent;
+    color: #4867AA;
+}
+.topBarDark{
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.row .col {
+    width:220px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-basis: 20%;
+}
+
+.col2{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+}
+.smallRow{
+    margin: 20px 0px;
+}
+.smallRow2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact{
+    border: 1px solid #4867AA;
+    background-color: transparent;
+    color: #4867AA;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.contact:hover{
+    background-color: #465BA9;
+    color: white;
+    transition: 0.2s;
+
+}
+.linkToCompany:hover{
+    color: white;
+   
+    transition: 0.2s;
+}
+.LocateAbout{
+    position: relative;
+    bottom: 0px;
+  
+  
+   
+
+}
+.head {
+    padding: 5px;
+    background-color: transparent;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    width: 100%;
+    text-align: center;
+    /* margin-left: 400px; */
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.head h2{
+    color: #4867AA;
+    background-color: transparent;
+}
+.bodyLayout{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    width: 100%;
+
+    position: relative;
+    justify-content: space-between;
+    height: 100vh;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ProductsOfCompanyLight{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+   
+    
+   
+
+  
+}
+.ProductsOfCompanyLight h2{
+    margin: 20px auto;
+    color: #2196F3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ProductsOfCompanyDark{
+       display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+   
+    
+    background-color: #181A1B;
+      display: flex;
+    flex-direction: column;
+  
+    width: 100%;
+   
+    
+}
+.ProductsOfCompanyDark h2{
+    margin: 20px auto;
+    color: #2196F3;
+}
+.cardLayout{
+
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: auto ;
+    height: 100%;
+    padding-top: 1%;
+   
+}
+.scrollProducts{
+    overflow: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+   
+}
+.searchInputDiv{
+    width: 20%;
+  
+}
+.searchInput{
+    padding: 5px  10px;
+    width: 100%;
+    outline: 0px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    color: #4867AA;
+}
+.searchInput:focus{
+    border-bottom: 2px solid #4867AA;
+    transition: 0.2s;
+}
+.searchScroll{
+    width: 20%;
+    height: 200px;
+    background-color: red;
+    z-index: 1;
+    position: absolute;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-y: auto;
+}.tableSearchStyle{
+    width: 100%;
+}
+.tableSearchStyle tr{
+    width: 100%;
+    text-align: center;
+}
+.tableSearchStyle tr td{
+  
+    margin: 20px 5px; 
+  
+}
+.tableSearchStyle tr:hover{
+    background-color: #465BA9;
+    color: white;
+    transition: 0.2s;
+}.tableSearchStyle tr td:hover{
+    color: white;
+}
+.tableSearchStyle tr td img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+
+}
+.dropDownSearchHide{
+    display: none;
+}
+.TheLinkToCompany{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.dropDownSearch{
+    width: 20%;
+    height: 200px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-y: auto;
+}
+@media screen and (max-width: 1000px) {
+    .cardLayout{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 1000px;
+
+    }
+    .bodyLayout{
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+        display: block;
+    }
+    .ProductsOfCompany{
+        margin: auto;
+        width: 99%;
+    }
+    .LocateAbout{
+        width: 99%;
+        margin: 20px auto;
+        
+    }
+    
+    .topBarLight{
+        height: 100%;
+        width: 90%;
+        left: 5%;
+    }
+    .topBarDark{
+        height: 550px;
+        width: 90%;
+        left: 5%;
+    }
+    .row{
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+    .row .col{
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .row .col .companyImg{
+        width: 120px;
+        height: 120px;
+    }
+    .col2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    p{ font-size:12px;}
+    .smallRow {
+        margin: 20px 0px;
+        text-align: center;
+        
+    }
+    .smallRow2{
+        
+        flex-direction: column;
+        display: inline-block;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        
+    }
+    .smallCol4{
+        display: flex;
+        margin: 20px 0px;;
+    }
+    .contact{
+        margin: auto;
+        
+    }
+    .tableColomn{
+        min-width: 95%;
+        display: flex;
+        justify-content: center;
+       
+
+         
+        }
+
+    .tableRow{
+           
+         min-width: 100%;
+   
+         position: relative;
+         margin-top: 60px;
+
+           
+            
+            
+    }
+    .ProductsOfCompanyLight{
+        margin: auto;
+        width: 99%;
+    }
+    .cardsInfo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+        position: relative;
+        left: 5%;
+
+
+    }
+    .NumOfOrders1{
+        
+    width: 100%;
+    
+    }
+    .NumOfOrders2{
+        
+    width: 100%;
+    
+    }
+    .NumOfOrders3{
+        
+    width: 100%;
+    
+    }
+    .NumOfOrders4{
+        
+    width: 100%;
+    
+    }
+    
+}
+
+
+
+
+
+.resizeCard{
+    width: 100%;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;;
+}
+.productsLayouts{
+width: 100%;
+}
+.cardImgTop{
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.body{
+    padding: 15px 10px;
+} 
+.cardTitle{
+    color: #4867AA;
+}
+.btn{
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 7px;
+    border: 1px solid #2196F3;
+
+   padding: 5px;
+    width: 100px;
+    font-size: small;
+    
+    margin: auto;
+    text-align: center;
+    display: block;
+    position: relative;
+  
+    color: #2196F3;
+    font-weight: 500;
+
+}
+.btn:hover{
+    background-color:#2196F3 ;
+    color: white;
+    transition: 0.2s;
+}
+@media screen and (max-width: 1000px) {
+
+    .resizeCard{
+        width: 80%;
+        position: relative;
+       
+
+        
+        
+    }
+}
+.loadingLayout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.loadingLayout div{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    justify-content: space-around;
+}

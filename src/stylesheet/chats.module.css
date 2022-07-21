@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.lastChatsLight{
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.lastChatsDark{
+    background-color: #181A1B;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.recordBrandFollowDark{
+    display: flex;
+    flex-direction: row;
+    background-color: #282B2D;
+    padding: 10px;
+    border-radius: 7px;
+    height: 100%;
+
+
+}
+.recordBrandFollowLight{
+    display: flex;
+    flex-direction: row;
+    background-color: #DBE2EB;
+    padding: 10px;
+    border-radius: 7px;
+    height: 100%;
+
+
+}
+.recordBrandFollowLight:hover{
+    background-color: #2196F3;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.recordBrandFollowLight .brandPhoto img{
+    width: 50px;
+    margin-right: 10px;
+    height: 50px;
+}
+.recordBrandFollowDark:hover{
+    background-color: #2196F3;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.recordBrandFollowDark .brandPhoto img{
+    width: 50px;
+    margin-right: 10px;
+    height: 50px;
+}
+.recordDiscrition{
+    display: flex;
+    align-items: center;
+    float: left;
+    overflow: hidden;
+    width: 90%;
+}
+.recordDiscrition p{
+    color: #2196F3;
+}
+.recordDiscrition p:hover{
+    color: white;
+}
+
+.readOrNotMessage{
+    width: 8px;
+    height: 8px;
+    background-color: #4867AA;
+    border-radius: 50%;
+
+}

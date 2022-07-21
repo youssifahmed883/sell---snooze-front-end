@@ -1,0 +1,333 @@
+.RightDiv{
+    padding: 4%;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+     border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-height: 100vh;
+    overflow: auto;
+    
+}
+.RightDivDark{
+    padding: 4%;
+    width: 100%;
+    text-align: center;
+    background-color: #181A1B;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-height: 100vh;
+    overflow: auto;
+    
+}
+.styleLink{
+    text-decoration: none;
+    color: #2196F3;
+
+   }
+ .styleLink2{
+    border: 0px;
+    background-color: transparent;
+    color: red;
+    size: 12px;
+    font-size: large;
+ }
+
+
+.LargeDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tableColomn{
+ min-width: 100%;
+ max-width: 100%;
+ background-color: transparent;
+
+}
+.themeCard{
+    background-color: #282B2D;
+}
+.tableRow{
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    min-width: 20%;
+    
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    
+    
+}
+.hideTableRow{
+    display: none;
+}
+.tableHead{
+    height: 0px;
+    display: none;
+}
+.tableLayout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    min-height: 250px;
+    width: 100%;
+}
+.tableBody{
+    width: 100%;
+}
+.ordersTable{
+    width: 100%;
+}
+
+
+
+.productsHeading{
+    background-color: transparent;
+    color: #2196F3  ;
+}
+.RightDiv h2{
+    padding: 10px;
+}
+.LinkTheButton{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    margin-right: 10%;
+}
+.cardsLight{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 100%;
+   
+}
+.cardsDark{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 100%;
+   
+}
+.layoutCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.cardImgTop{
+    width: 85%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    
+    min-height: 100px;
+    max-height: 100px;
+}
+.card{
+   
+    margin: 2%;
+    max-width: 100%;
+    min-width: 16%;
+    border-radius: 7px;
+    max-height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    background-color: transparent;
+    min-height: 100%;
+}
+.cardBody{
+    padding: 5%;
+    text-align: start;
+    overflow: auto;
+    overflow: scroll;
+    color: #4867AA;
+}
+.cardTitle{
+    margin: 2% 0;
+}
+.cardText{
+    font-size: 0.8em;
+}
+.cardBtnLayout{
+    display: flex;
+    
+}
+.btn{
+    width: 70%;
+    margin: auto;
+     background-color: transparent;
+     padding: 10px 0px;
+     color: #4867AA;
+     border: 1px solid #4867AA;
+     margin-top: 10px;
+     font-size: 15px;
+     font-weight: bold;
+     cursor: pointer;
+     border-radius: 7px;
+    
+}
+.btn:hover{
+    background-color: #4867AA;
+    color: white;
+    transition: 0.2s;
+}
+
+.TopLayout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inputSearch{
+    width: 20%;
+    padding: 5px;
+    height: 10%;
+    background-color: transparent;
+    color: #4867AA;
+    border : 1px solid #4867AA;
+    border-radius: 7px;
+    outline: 0px;
+}
+
+.inputSearch:focus{
+    box-shadow: 0px 0px 20px #4867AA; 
+    transition: 0.3s; 
+}
+.cardslayout{
+    display: flex;
+    flex-direction: row;
+
+ 
+
+}
+.NumOfOrders{
+    background-color: #F7B641;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 20%;
+    height: 90%;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%;
+    padding: 2%;
+    margin-left: 5%;
+
+
+
+}
+.theNumOfOrders{
+color: white;
+font-size: 5rem;
+}
+
+.NumOfOrders2{
+    background-color: #2196F3;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 20%;
+    height: 90%;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%;
+ 
+    padding: 2%;
+    margin-left: 5%;
+
+
+}
+.theNumOfOrders2{
+color: white;
+font-size: 5rem;
+}
+
+
+.NumOfOrders3{
+    background-color: #4867AA;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 20%;
+    height: 90%;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%;
+ 
+    padding: 2%;
+    margin-left: 5%;
+
+
+}
+.theNumOfOrders3{
+color: white;
+font-size: 5rem;
+}
+
+
+
+
+@media (max-width : 1000px){
+    .cardsDark{
+        flex-basis: 90%;
+        max-width: 90%;
+        margin: 2% auto;
+    
+    }
+    .cardsLight{
+        flex-basis: 90%;
+        max-width: 90%;
+        margin: 2% auto;
+    
+    }
+    .tableColomn{
+       min-width: 95%;
+        
+       }
+       .tableRow{
+           min-width: 95%;
+       }
+       .NumOfOrders{
+        width: 30%;
+       }
+       .NumOfOrders2{
+        width: 30%;
+       }
+       .NumOfOrders3{
+        width: 30%;
+       }
+       .theNumOfOrders{
+        color: white;
+        font-size: 2em;
+        }
+        .theNumOfOrders2{
+            color: white;
+            font-size: 2em;
+            }
+            .theNumOfOrders3{
+                color: white;
+                font-size: 2em;
+                }
+                .tableLayout{
+                   
+                }
+                .verticalGap{
+                   
+                }
+}

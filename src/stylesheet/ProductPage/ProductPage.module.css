@@ -1,0 +1,233 @@
+body{
+    background-color: #F4F6F9;
+}
+.contactResponsive{
+    display: none;
+}
+p{
+    font-size: 18px;
+    color: gray;
+}
+.company{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.themeDivDark{
+    background-color: #282B2D;
+    height: 120vh;
+    width: 100%;
+}
+.themeDivLight{
+    background-color:#FFF;
+    height: 120vh;
+    width: 100%;
+}
+.topBar{
+    width: 90%;
+    height: 250px;
+    background-color: white;;
+    position: relative;
+    left: 5%;
+    top:100px;
+    
+    margin-bottom: 120px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.topBarDark{
+    width: 90%;
+    height: 250px;
+    background-color: #181A1B;;
+    position: relative;
+    left: 5%;
+    top:100px;
+    
+    margin-bottom: 120px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.row .col {
+    width:220px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-basis: 20%;
+}
+.companyName{
+    color: #465BA9;
+}
+.row .col .companyImg{
+    height: 80%;
+    background-color: transparent;
+    margin: 0 15px;
+    max-width: 300px;
+    min-width: 200px;
+    border: 1px solid lightblue   ;
+    border-radius: 7px;
+    
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+}
+.smallRow{
+    margin: 20px 0px;
+}
+.smallRow2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact{
+    border: 1px solid #4867AA;
+    background-color: white;
+    color: #4867AA;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.contact:hover{
+    background-color: #465BA9;
+    color: white;
+    transition: 0.2s;
+
+}
+.LocateAbout{
+    display: inline-block;
+    width: 20%;
+    height: 70vh;
+  
+   
+
+}
+.head {
+    padding: 5px;
+    background-color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    width: 100%;
+    text-align: center;
+    /* margin-left: 400px; */
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+.bodyLayout{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    width: 90%;
+    left: 5%;
+    position: relative;
+    justify-content: space-between;
+    height: 70vh;
+    margin-bottom: 20px;
+}
+.ProductsOfCompany{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 78%;
+   
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.ProductsOfCompany h2{
+    margin: 20px auto;
+}
+.cardLayout{
+
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: auto ;
+   
+}
+.scrollProducts{
+    overflow: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+@media screen and (max-width: 1000px) {
+    .cardLayout{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 1000px;
+
+    }
+    .bodyLayout{
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+        display: block;
+    }
+    .ProductsOfCompany{
+        margin: auto;
+        width: 99%;
+    }
+    .LocateAbout{
+        width: 99%;
+        margin: 20px auto;
+        
+    }
+    
+    .topBar{
+        height: 550px;
+        width: 90%;
+        left: 5%;
+    }
+    .row{
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+    .row .col{
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .row .col .companyImg{
+        width: 120px;
+        height: 120px;
+    }
+    .col2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    p{ font-size:12px;}
+    .smallRow {
+        margin: 20px 0px;
+        text-align: center;
+        
+    }
+    .smallRow2{
+        
+        flex-direction: column;
+        display: inline-block;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        
+    }
+    .smallCol4{
+        display: flex;
+        margin: 20px 0px;;
+    }
+    .contact{
+        margin: auto;
+        
+    }
+}

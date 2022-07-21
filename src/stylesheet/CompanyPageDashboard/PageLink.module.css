@@ -1,0 +1,301 @@
+body{
+     background-color: #DBE2EB;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
+    top:60px;
+    left: 0%;
+    padding: 0px;
+    display: flex;
+   
+    justify-content: space-between;
+    padding-bottom: 2%;
+    
+   
+
+}
+.leftLight{
+    position: fixed;
+    width: 15%;
+
+    background-color: #F5F7F8;
+    height: 100%;
+
+    
+   
+    padding: 10px;
+    overflow-x: auto;
+}
+.leftDark{
+    position: fixed;
+    width: 15%;
+
+    background-color: #181A1B;
+    height: 100%;
+
+    
+   
+    padding: 10px;
+}
+.leftLight h2 {
+    padding: 20px;
+    border-radius: 7px;
+    background-color: transparent;
+
+}
+.leftDark h2 {
+    padding: 20px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: white;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.leftLight .option a{
+    width: 100%;
+    padding: 10px 15px;
+    border: 0px;
+
+    color: gray;
+    text-align: left;
+
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-radius: 7px;
+}
+.leftLight .option a:hover{
+    color: white;
+    background-color:#2196F3;
+}
+.leftLight .option a:focus{
+    background-color: #2196F3;
+    color: white;
+    font-weight: 600;
+}
+
+
+.leftDark .option a{
+    width: 100%;
+    padding: 10px 15px;
+    border: 0px;
+
+    color: gray;
+    text-align: left;
+
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-radius: 7px;
+}
+.leftDark .option a:hover{
+    color: white;
+    background-color: #2196F3;
+}
+.leftDark .option a:focus{
+    background-color: #2196F3;
+    color: #5363c7;
+    font-weight: 600;
+}
+.rightLight{
+width: 100%;
+position: relative;
+left: 0%;
+min-height: 70vh;
+ background-color: transparent;
+
+ display: flex;
+ justify-content: center;
+ overflow: auto;
+}
+.rightDark{
+    width: 100%;
+    position: relative;
+    left: 0%;
+    min-height: 70vh;
+     background-color: transparent;
+     border-radius: 7px;
+    
+     display: flex;
+     justify-content: center;
+     overflow: auto;
+}
+
+
+
+.companyInfo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+  
+}
+.companyInfoLeft{
+    display: flex;
+    align-items: center;
+}
+.companyImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.companyInfoRight{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.companyInfouserName{
+    color: #2196F3;
+ font-weight: bold;
+ font-family: sans-serif;
+}
+.companyInfoEmail{
+    color: gray;
+    font-size: small;
+}
+.ControlMenue{
+ color: #2196F3;;
+ font-weight: 600;
+ font-family: sans-serif;
+ margin: 15% 0% 8% 8%;
+
+ 
+ font-size: 15px;
+}
+.rightDashBoardLayout{
+    display: flex;
+  
+    position: relative;
+    left: 16%;
+    width: 83%;
+    top: 10px;
+    flex-direction: column;
+}
+.completeInfo{
+    width: 100%;
+    background-color: white;
+    height: 6%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    padding: 2%;
+    align-items: center;
+    font-size: 1em;
+    overflow-x: auto;
+}
+.completeInfoDark{
+    width: 100%;
+    background-color: #181A1B;
+    height: 6%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    padding: 2%;
+}
+.FontColor{
+    color: #2196F3;
+    font-weight: 500;
+    font-family: sans-serif;
+   
+}
+.FontSize{
+    font-size: small;
+}
+.hideLeftDiv{
+    display: none;
+}
+.optionHeddin{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    overflow-x: auto;
+   
+}
+@media (max-width : 1000px){
+    .rightDashBoardLayout{
+       
+        width: 90%;
+        left: 5%;
+        top: 5%;
+       padding-bottom: 2%;
+   
+    }
+    .leftLight{
+        display: none;
+    }
+  
+    .hideLeftDiv{
+        display: block;
+        background-color: white;
+        position: relative;
+     
+        padding: 3%;
+        
+    }
+    .optionHeddin{
+        text-decoration: none;
+    }
+    .optionHeddin .tabs{
+        text-decoration: none;
+        color: #2196F3;
+        border-radius: 7px; 
+        font-size: small;
+        padding: 2%;
+
+    }
+    .tabs:hover{
+
+        background-color: #2196F3;
+        color: white;
+    }
+    .completeInfo{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 2% 0;
+    }
+    .container{
+       display: flex;
+       flex-direction: column;
+      
+      
+        
+
+    }
+    .leftLight{
+       position: relative;
+       width: 90%;
+       left: 5%;
+       top: 2%;
+       border-radius: 7px;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+    .leftDark{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        top: 2%;
+        border-radius: 7px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+   
+   
+}
+

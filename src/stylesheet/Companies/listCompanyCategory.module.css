@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.TopLayout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #2196F3;
+}
+.TopLayoutDark{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #181A1B;
+}
+.TopLayout h2{
+    color: white;
+}
+.TopLayoutDark h2{
+    color: #2196F3;
+}
+.inputSearch{
+    width: 20%;
+    padding: 5px;
+    height: 10%;
+    background-color: transparent;
+    color: white;
+    border : 1px solid white;
+    border-radius: 7px;
+    outline: 0px;
+    margin: auto 0;
+}
+.inputSearch::placeholder{
+    color: white;
+}
+.inputSearch:focus{
+    box-shadow: 0px 0px 20px white; 
+    transition: 0.3s; 
+}
+.containerLight{
+    width: 98%;
+    height: 85%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    margin-top: 20px;
+   
+    
+
+}
+.containerDark{
+    width: 98%;
+    height: 85%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    margin-top: 20px;
+   
+    
+
+}
+.themeDivDark{
+    background-color: #282B2D;
+    width: 100%;
+    height: 110vh;
+
+}
+.TheLinkToCompany{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    margin: 2%;
+    height: 100%;
+}
+.header{
+  
+    text-align: center;
+    height: 5%;
+    margin-bottom: 5px;
+    background-color: white;
+}
+.headerDark{
+  
+    text-align: center;
+    height: 5%;
+    margin-bottom: 5px;
+}
+
+.header h1{
+  
+   color: #4867AA;
+}
+.layout{
+  
+    width: 100%;
+    height: 95%;
+    overflow: auto;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    
+}
+.layoutDark{
+  
+    width: 100%;
+    height: 95%;
+    overflow: auto;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    
+}
+.card{
+    width: 100%;
+    height: 300px;
+  
+    margin: 2%;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    
+   
+}
+.card:hover{
+    transform: scale(1.05); 
+    transition: 0.5s;
+}
+.companyPhoto{
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    
+    
+}
+.companyPhoto img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.companyInfoLight
+{
+    height:40%;
+    width: 100%;
+    background-color: white;
+    border-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 10px;
+}
+.companyInfoLight h4{
+    color: #4867AA;
+}
+.companyInfoDark h4{
+    color: #4867AA;
+}
+.cardElevation{
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    cursor: pointer;
+}
+
+.companyInfoDark
+{
+    height:40%;
+    width: 100%;
+    background-color: transparent;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 10px;
+}
+.cardThemek{
+    background-color: white;
+      border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.cardThemeDark{
+    background-color: #181A1B;
+
+}
+
+.tableColomn{
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    background-color: transparent;
+   
+   }
+.tableColomn td{
+    background-color: transparent;
+   
+   }
+   .tableRow{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    min-width: 15%;
+    max-width: 15%;
+    flex-wrap: wrap;
+  
+       
+       
+   }
+   .hideTableRow{
+       display: none;
+   }
+   .tableHead{
+       height: 0px;
+       display: none;
+   }
+   .tableLayout{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+     
+       height: 100%;
+       width: 100%;
+       
+   }
+   .tableBody{
+       width: 100%;
+   }
+   .ordersTable{
+       width: 100%;
+       height: 90vh;
+   }
+   
+
+
+
+
+@media screen and (max-width: 900px) {
+    .layout{
+        flex-wrap: wrap;
+        
+    }
+    .card{
+        width: 46%; 
+
+    
+    }
+    .tableColomn{
+        min-width: 95%;
+         
+        }
+
+    .tableRow{
+           
+         min-width: 100%;
+         left: 2%;
+         position: relative;
+         margin-bottom: 125px;
+           
+            
+            
+    }
+    .cardThemek{
+        background-color: white;
+        max-width: 340px;
+
+          border-radius: 7px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 760px) {
+    .layout{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        
+    }
+    .card{
+        width: 95%; 
+
+    
+    }
+    .TheLinkToCompany{
+        width: 95%;
+    }
+    .tableColomn{
+        min-width: 95%;
+         
+        }
+
+    .tableRow{
+           
+         min-width: 100%;
+         left: 2%;
+         position: relative;
+           
+            
+            
+    }
+}
+.bigLoadig{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+}
+.LoadingLayout{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+
+}
+.LoadingLayout div{
+
+    margin: 2%;
+
+}

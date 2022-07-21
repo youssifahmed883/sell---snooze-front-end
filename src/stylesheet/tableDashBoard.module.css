@@ -1,0 +1,177 @@
+
+.tableButton{
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #FFF;
+    color: white ;
+    border-radius: 7px;
+    cursor: pointer;
+
+
+}
+.hiddenDiv{
+	background-color: #2195f377;
+	position: absolute;
+	
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+	width: 40%;
+	height: fit-content;
+	z-index: 10;
+	display: none;
+}
+.hiddenDivhide{
+	background-color: #2195f377;
+	position: absolute;
+	
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+	
+	z-index: 10;
+}
+.hiddenDivLayoutBTN{
+	width: 100%;
+	padding: 2%;
+	color: #2196F3;
+	background-color: white;
+	border: 0px;
+}
+.hiddenDivLayout{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.hiddenImgLayout{
+	width: 100%;
+	height: 90%;
+}
+.tableButton:hover{
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid #2196F3;
+    color:#2196F3 ;
+    border-radius: 7px;
+    cursor: pointer;
+	transition: 0.2s;
+
+
+}
+.themeDivLight{
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+}
+.themeDivDark{
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background-color: #282B2D;
+}
+.InputSearch{
+	outline: 0;
+	padding: 5px 20px;
+	width: 90%;
+	border: 0px;
+	background-color: white;
+	border-radius: 7px ;
+}
+.tablePhoto{
+max-width: 70px;
+max-height: 70px;
+min-width: 70px;
+min-height: 70px;
+margin-right: 10px ;
+border-radius: 50%;
+
+}
+.ordersTable tr:nth-child(even) td {
+    background-color: #F5F7F8;
+  }
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.container {
+    position: absolute;
+    
+    top: 10%;
+	
+	
+    width: 100%;
+}
+
+.ordersTable {
+	width: 95%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    position: relative;
+    left: 2.5%;
+   border-radius: 7px;
+   background-color: white;
+}
+.ordersTableDark{
+	width: 95%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    position: relative;
+    left: 2.5%;
+   border-radius: 7px;
+   background-color: #2195f371;
+}
+
+th,td {
+	padding: 15px 0 15px 10px;
+	background-color: transparent;
+	color: white;
+	margin-left: 10px;
+	font-size: 17px;
+    
+}
+
+th {
+	text-align: left;
+	background-color: #2196F3;
+
+}
+
+thead th {
+	
+	background-color: #2196F3;
+        color: #FFF;
+	
+}
+.headDark th{
+	background-color: #181A1B;
+	color: #2196F3;
+}
+
+ 
+.tablecol:before {
+		position: relative;
+		
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			
+	}
+.content{
+
+}

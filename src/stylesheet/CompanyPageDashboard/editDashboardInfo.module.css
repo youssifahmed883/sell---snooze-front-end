@@ -1,0 +1,91 @@
+.div1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    overflow: auto;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.verticalGap{
+    height: 200px;
+}
+.div1Dark{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-color: #181A1B;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.AddHeader{
+    background-color: transparent;
+    color: #2196F3;
+}
+.div1 h2{
+    padding: 3%;
+}
+.div1Dark h2{
+    padding: 3%;
+}
+.div1 .InfoForm{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 80%;
+
+
+}
+.div1Dark .InfoForm{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 80%;
+
+
+}
+.inputField{
+    margin: 20px 0px;
+    padding: 5px;
+   border: 0px;
+   border-bottom: 1px solid #2196F3;
+   background-color: transparent;
+   color: #2196F3;
+    
+}
+.inputField:focus{
+    outline: 0px;
+    border-bottom: 1px solid #465BA9;
+    transition: 0.2s;
+}
+.companyDisc{
+    width: 100%;
+    background-color: transparent;
+    color: #4867AA;
+}
+.heroBtn{
+    width: 25%;
+    margin: auto;
+     background-color: transparent;
+     padding: 10px 0px;
+     color: #2196F3;
+     border: 1px solid #2196F3;
+     margin-top: 50px;
+     font-size: 15px;
+     font-weight: bold;
+     cursor: pointer;
+     border-radius: 7px;
+     margin-bottom: 20px;
+}
+.heroBtn:hover{
+    background-color: #2196F3;
+    color: white;
+    transition: .2s;
+   
+}

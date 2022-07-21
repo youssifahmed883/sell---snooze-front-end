@@ -1,0 +1,359 @@
+
+
+
+.productDescription{
+    background-color: white;
+   
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.productDescriptionDark{
+    background-color: #181A1B;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.productDescription .bigRow{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+ .col1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    height: 100%;
+    flex-basis: 40%;
+   background-color: #a8a8a844;
+    
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.productDescription .bigRow .col1 .row1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2195f37c;
+    align-items: center;
+    justify-content: center;
+}
+.productDescription .bigRow .col1 .row1 img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 7px;
+ 
+    max-height: 100%;
+
+}
+.productDescription .bigRow .col1 .row1 img:hover{
+    opacity: .8;
+    transition: 0.3s;
+}
+
+
+
+.productDescriptionDark .bigRow{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.productDescriptionDark .bigRow .col1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    height: 100%;
+    flex-basis: 40%;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 7px;
+}
+.productDescriptionDark .bigRow .col1 .row1 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.productDescriptionDark .bigRow .col1 .row1 img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-height: 100%;
+
+}
+.productDescriptionDark .bigRow .col1 .row1 img:hover{
+    opacity: .8;
+    transition: 0.3s;
+}
+
+.herobtn{
+  border: 0px;
+  background-color: black;
+  color: white;
+ align-self: center;
+  width: 80%;
+  margin: 2% auto;
+  padding: 2% 0;
+   
+}
+.herobtn:hover{
+    background-color:#181a1baf ;
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
+ h2{
+    margin: 10px 0px;
+}
+
+.productDescription .bigRow .col2 .smallRow .col2{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    align-items: center;
+}
+.productDescriptionDark .bigRow .col2 .smallRow .col2{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    align-items: center;
+}
+.reactButtons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10% auto;
+   
+}
+
+.heroBtn:hover{
+    background-color: #181A1B;
+    color: white;
+    transition: .2s;}
+
+
+
+
+.col2{
+    flex-basis: 60%;
+ 
+    height: 100vh;
+    padding-top: 80px;
+}
+.companyInfo{
+  
+    width: 60%;
+    position: relative;
+    left: 10%;
+    display: flex;
+    
+
+}
+.companyPhoto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.companyInfoName{
+   
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+    margin-left: 10px;
+   
+}
+.CompanyEmail{
+    color: gray;
+}
+.companyUserName{
+    color: #2196F3;
+    font-weight: 600;
+}
+.cardDiv{
+    background-color: #2195f3c0;
+    width: 60%;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    left: 10%;
+    padding: 1%;
+    margin-top: 4%;
+
+}
+.cardDiv p{
+    color: white;
+}
+.productDescriptions{
+  margin-top: 4%;
+    width: 60%;
+    position: relative;
+    left: 10%;
+}
+.productDescriptionsBtn{
+  margin-top: 4%;
+    width: 60%;
+    position: relative;
+    left: 10%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px){
+    .productDescription .bigRow{
+        flex-direction: column;
+    }
+    .col2{
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+    }
+    .companyInfo{
+        left: 0px;
+    }
+    .cardDiv{
+        left: 0px;
+        padding: 5%;
+        width: 90%;
+    }
+    .productDescriptions{
+        width: 90%;
+        left: 0;
+    }
+    .productDescriptionsBtn{
+        left: 0px;
+    }
+}
+.loadingLayout{
+    display: flex;
+    flex-direction: column;
+}
+.heddinDiv{
+    background-color: rgba(0, 0, 0, 0.692);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+    display: none;
+    
+    
+}
+.heddinDivShow{
+    background-color: rgba(0, 0, 0, 0.692);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+
+}
+.heddinForm{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: 80%;
+    background-color: white;
+    border-radius: 7px;
+   
+
+}
+.heddinFormDark{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: 80%;
+    background-color: #181A1B;
+    border-radius: 7px;
+   
+
+}
+.heddinFormShow{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 40%;
+    background-color: white;
+    border-radius: 7px;
+
+}
+.payForm{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.Logo{
+    font-size: 5rem;
+}
+.ProductPriceInfo{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+}
+.cancelBtn{
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    color: #2196F3;
+    border: 1px solid #2196F3;
+    border-radius: 50%;
+   padding: 1% 2%;
+   cursor: pointer;
+}
+.ContactBtn{
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    background-color: #181A1B;
+    color: white;
+    padding: 1% 3%;
+    border-radius: 7px;
+}
+@media screen and (max-width: 1000px){
+    .ContactBtn{
+        padding: 1% 2%;
+        right: -20%;
+        top: 0px;
+    }
+}

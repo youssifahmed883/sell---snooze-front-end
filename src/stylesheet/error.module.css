@@ -1,0 +1,21 @@
+.Btn{
+    width: 25%;
+    margin: auto;
+     background-color: white;
+     padding: 10px 0px;
+     color: #4867AA;
+     border: 1px solid #4867AA;
+     margin-top: 50px;
+     font-size: 15px;
+     font-weight: bold;
+     cursor: pointer;
+     border-radius: 7px;
+     margin-bottom: 20px;
+     margin-left: 35%;
+}
+.Btn:hover{
+    background-color: #465BA9;
+    color: white;
+    transition: .2s;
+   
+}

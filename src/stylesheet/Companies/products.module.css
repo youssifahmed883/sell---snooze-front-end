@@ -1,0 +1,56 @@
+.resizeCard{
+    width: 18%;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;;
+}
+.productsLayouts{
+width: 100%;
+}
+.cardImgTop{
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.body{
+    padding: 15px 10px;
+} 
+.cardTitle{
+    color: #4867AA;
+}
+.btn{
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 7px;
+    border: 1px solid #4867AA;
+    padding: 8px 10px;
+    margin: 10px 0;
+    width: 65%;
+    text-align: center;
+    display: block;
+    position: relative;
+    left: 17.5%;
+    color: #4867AA;
+    font-weight: 500;
+
+}
+.btn:hover{
+    background-color:#4867AA ;
+    color: white;
+    transition: 0.2s;
+}
+@media screen and (max-width: 1000px) {
+
+    .resizeCard{
+        width: 80%;
+        position: relative;
+       
+
+        
+        
+    }
+}
